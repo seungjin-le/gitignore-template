@@ -1,3 +1,5 @@
+# gitignore
+
 ```
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -154,4 +156,20 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm
 
+```
+
+# yarn setting
+
+### Keyword
+```
+yarn set version berry
+```
+
+### .yarnrc.yml
+```
+삭제 
+# nodeLinker: node-modules
+
+추가
+yarnPath: .yarn/releases/yarn-berry.js
 ```
